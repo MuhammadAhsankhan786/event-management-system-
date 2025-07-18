@@ -8,6 +8,7 @@ import "./App.css";
 import EditEvent from "./pages/EditEvent";
 import ProtectedRoute from "./context/ProtectedRoute";
 import { AuthProvider } from "./context/AuthContext";
+// import EventList from "./pages/EventList";
 import EventList from "./pages/EventList";
 
 function App() {

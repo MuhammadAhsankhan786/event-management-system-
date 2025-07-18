@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase";
 import { useNavigate } from "react-router-dom";
-import React from "react";
+// import React from "react";
 import gsap from "gsap"; // ✅ GSAP import
 
 const Signup = () => {
