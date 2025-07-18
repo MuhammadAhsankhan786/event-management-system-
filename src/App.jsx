@@ -5,12 +5,10 @@ import Login from "./pages/Login";
 import AddEvent from "./pages/AddEvent";
 import Navbar from "./components/Navbar";
 import "./App.css";
-// import EventList from "./pages/Eventlist";
-import Eventlist from "./pages/EventList"; // اگر فائل کا نام EventList.jsx ہے
-
 import EditEvent from "./pages/EditEvent";
 import ProtectedRoute from "./context/ProtectedRoute";
 import { AuthProvider } from "./context/AuthContext";
+import EventList from "./pages/EventList";
 
 function App() {
   return (
